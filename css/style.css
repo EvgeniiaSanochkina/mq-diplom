@@ -602,7 +602,7 @@
         }
     }
     
-    @media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {
+    @media (min-width: 641px) and (max-width: 1199px) {
         .header {
             background-image: url("../images/banner-bg-tablet.jpg");
             background-repeat: no-repeat;
