@@ -1076,8 +1076,8 @@
             padding-left: 33px;
         }
         .menu-trend-list {
-            list-style-type: none;
             display: flex;
+            list-style-type: none;
         }
         .style-menu-trends {
             color: #b59f5b;
