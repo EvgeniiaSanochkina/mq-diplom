@@ -113,6 +113,9 @@
         font-size: 14px;
         font-family: OpenSans-regular;
         color: rgb(171 182 191);
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
     
     .checkbox_popup_subscription_text {
@@ -147,6 +150,7 @@
         background-image: url(../svg/form-circle.svg);
         width: 20px;
         height: 20px;
+        padding-left: 10px;
     }
     
     .button_sub {
@@ -167,6 +171,7 @@
         background-position: center center;
         background-size: 20px;
         vertical-align: middle;
+        padding-left: 10px;
     }
     
     .radio-group {
@@ -329,14 +334,11 @@
     
     .page {
         max-width: 1200px;
-        /* min-width: calc(1200px - 27.7%);*/
         padding-left: 15px;
         padding-right: 15px;
         margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
-        /* margin-left: 13.85%;
-            margin-right: 13.85%;*/
     }
     
     .post-aside {
@@ -361,11 +363,6 @@
         text-decoration: none;
         color: #000000;
         text-transform: uppercase;
-    }
-    
-    .fit-picture {
-        /*width: 380px;*/
-        /* width: 100%;*/
     }
     
     .post-preview {
@@ -619,9 +616,6 @@
         height: 82px;
         background: #f4f7f6;
         margin-bottom: 70px;
-        /*margin-right: 13.85%;
-            margin-left: 13.85%;
-            min-width: calc(1200px - 27.7%);*/
         max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
@@ -674,7 +668,6 @@
     .trend {
         position: relative;
         width: 25%;
-        /* min-height: 320px;*/
         display: flex;
         margin-right: 4px;
         z-index: 0;
@@ -731,21 +724,18 @@
     }
     
     .menu-header {
-        border: 4px solid #b59f5b;
-        height: 47%;
+        border: 2px solid #b59f5b;
+        /*  height: 47%;*/
+        padding-top: 40px;
+        padding-left: 34px;
+        padding-bottom: 30px;
         width: 90%;
         margin: 0px auto 10px auto;
-    }
-    
-    .menu-trends {
-        padding-top: 34px;
-        padding-left: 30px;
     }
     
     .menu-trend-list {
         display: flex;
         list-style-type: none;
-        /* padding-top: 13px;*/
     }
     
     .style-menu-trends {
@@ -757,28 +747,16 @@
         font-size: 15px;
     }
     
-    .menu-header-trend-two {
-        border: 4px solid #b59f5b;
-        height: 43%;
-        min-height: 170px;
-        margin: 0 20px 14px 20px;
-    }
-    
     .trend-title {
-        padding-left: 28px;
         color: white;
         font-family: OpenSans-regular;
         text-transform: uppercase;
         text-decoration: none;
         font-weight: bold;
         font-size: 20px;
-        padding-top: 5px;
-        padding-bottom: 10px;
     }
     
     .trends-header {
-        /*min-height: 122px;
-            display: flex;*/
         margin-bottom: 29px;
     }
     
@@ -820,21 +798,18 @@
     }
     
     .products {
-        /* min-width: calc(1200px - 27.7%);*/
         max-width: 1200px;
         margin-left: auto;
         margin-left: auto;
     }
     
     .shops-header {
-        /*height: 61px;*/
         margin-bottom: 29px;
     }
     
     .shop-title {
         width: 100%;
         padding-top: 44px;
-        padding-left: 21px;
         text-transform: uppercase;
         font-size: 20px;
         font-family: OpenSans-bold;
@@ -860,12 +835,12 @@
     
     .container-shop {
         border: 3px solid #b59f5b;
-        ;
+        padding-left: 21px;
         margin-top: -30px;
         min-width: 340px;
         height: 100%;
         width: calc(100% - 39px);
-        min-height: 267px;
+        padding-bottom: 25px;
     }
     
     .shop-one-picture {
@@ -883,13 +858,11 @@
         max-width: 100%;
         font-size: 15px;
         padding-top: 6px;
-        padding-left: 20px;
         font-family: OpenSans-regular;
     }
     
     .shop__prices {
         padding-top: 26px;
-        padding-left: 20px;
     }
     
     .shop__price {
@@ -1137,11 +1110,11 @@
             min-height: 247px;
         }
         .menu-header {
-            border: 3px solid #b59f5b;
-            min-height: 136px;
+            padding-top: 40px;
+            padding-left: 0px;
+            padding-bottom: 30px;
         }
         .menu-trends {
-            /*  padding-top: 0px;*/
             padding-left: 32px;
         }
         .style-menu-trends {
@@ -1198,7 +1171,6 @@
         }
         .container-shop {
             margin-top: -37px;
-            min-height: 258px;
         }
         .shop__prices {
             padding-bottom: 1px;
@@ -1222,11 +1194,6 @@
             margin-bottom: 3px;
             position: relative;
             z-index: 0;
-        }
-        .menu-header-trend-two {
-            border: 3px solid #b59f5b;
-            min-height: 157px;
-            margin: 42px 16px 1px 20px;
         }
     }
     
@@ -1420,7 +1387,7 @@
         .last-post {
             display: flex;
             flex-flow: wrap;
-            width: calc(100% - 30px);
+            width: 100%;
         }
         .last-post-content {
             padding-left: 0px;
@@ -1562,18 +1529,15 @@
         }
         .menu-header {
             border: 3px solid #b59f5b;
-            min-height: 127px;
             max-width: 332px;
             margin: 87px auto 0px auto;
+            padding-top: 0px;
+            padding-left: 5px;
+            padding-bottom: 27px;
         }
         .menu-trends {
             padding-top: 31px;
             padding-left: 16px;
-        }
-        .menu-header-trend-two {
-            border: 3px solid #b59f5b;
-            min-height: 148px;
-            margin: 65px 17px 0px 12px;
         }
         .trend-title {
             padding-left: 15px;
@@ -1618,7 +1582,6 @@
         }
         .container-shop {
             margin-top: -36px;
-            min-height: 221px;
             margin-bottom: 26px;
         }
         .shop-one-picture {
