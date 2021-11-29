@@ -495,7 +495,7 @@
     .field {
         background-color: #f4f7f6;
         border: none;
-        width: 100%;
+        width: calc(100% - 59px);
         padding-left: 19px;
         height: 48px;
         margin-bottom: 18px;
@@ -1026,7 +1026,7 @@
             margin-bottom: 58px;
         }
         .button {
-            width: 25%;
+            width: 59px;
         }
         .search-button {
             width: 20px;
@@ -1416,13 +1416,13 @@
         .date-author {
             display: inline-flex;
             margin-bottom: 13px;
-            width: 122%;
+            /*width: 122%;*/
         }
         .post-date {
-            width: 63%;
+            /* width: 63%;*/
         }
         .author {
-            width: 95%;
+            /* width: 95%;*/
         }
         .text {
             font-family: OpenSans-regular;
@@ -1460,7 +1460,7 @@
             margin-bottom: 24px;
         }
         .button {
-            width: 17%;
+            width: 59px;
         }
         .search-button {
             width: 20px;
